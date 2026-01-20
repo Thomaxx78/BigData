@@ -1,0 +1,13 @@
+prefect
+minio
+pandas
+pyarrow
+faker
+streamlit
+plotly
+python-dotenv
+pymongo
+flask
+flask-cors
+pymongo-monitoring
+psycopg2-binary
