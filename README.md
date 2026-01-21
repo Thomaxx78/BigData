@@ -134,6 +134,15 @@ Dashboard disponible sur http://localhost:8501
 
 **sync_log** : logs de synchronisation avec durée et throughput
 
+## Fonctionnalités
+
+- **Base NoSQL opérationnelle avec MongoDB** : Stockage des données agrégées pour des requêtes rapides
+- **Pipeline Gold → MongoDB** : Lecture des fichiers Parquet depuis la couche Gold et écriture dans MongoDB
+- **API Flask** : Exposition des données MongoDB via endpoints REST
+- **Dashboard Streamlit** : Interface de visualisation interrogeant l'API
+- **Mesure du temps de refresh** : Calcul automatique du temps de synchronisation entre les couches
+- **Bonus : Metabase** : Dashboard BI additionnel pour l'exploration des données
+
 ## Troubleshooting
 
 ```bash
@@ -149,4 +158,3 @@ docker compose restart mongodb
 # Relancer le pipeline
 python pipeline/run.py
 ```
-# BigData
